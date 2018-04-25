@@ -12,11 +12,11 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 
 ## Introduction Papers
 
-* Adversarial Machine Learning, 2011,  [ [Link](https://people.eecs.berkeley.edu/~tygar/papers/SML2/Adversarial_AISEC.pdf) ]
+* Adversarial Machine Learning, 2011,  [ [paper](https://people.eecs.berkeley.edu/~tygar/papers/SML2/Adversarial_AISEC.pdf) ]
 * Adversarial examples in the physical world 
 * Exploring the space of adversarial images
 * Analysis of classifiers’ robustness to adversarial perturbations
-* Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods, Nicholas Carlini & David Wagner, [ [code](https://github.com/abhibhav14/adversarial-attacks-papernotes/blob/master/notes/carlini-wagner-bypass.md) ], [[arXiv](https://arxiv.org/abs/1705.07263)]
+* Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods, Nicholas Carlini & David Wagner, [ [code](https://github.com/abhibhav14/adversarial-attacks-papernotes/blob/master/notes/carlini-wagner-bypass.md) ], [[paper](https://arxiv.org/abs/1705.07263)]
 
 
 ## Attacks to Image Classification
@@ -26,7 +26,7 @@ In this category, the author usually luanch an attack to an image classifier mod
 
 * **FGSM** : Explaining and Harnessing Adversarial Examples
 * **RAND + FGSM** : Practical Black-Box Attacks against Machine Learning
-* **CW-Attack** : Towards Evaluating the Robustness of Neural Networks, Nicholas Carlini & David Wagner, [  [paper]()https://arxiv.org/abs/1608.04644 ]
+* **CW-Attack** : Towards Evaluating the Robustness of Neural Networks, Nicholas Carlini & David Wagner, [  [paper](https://arxiv.org/abs/1608.04644) ]
 * **Traffic Light** : Fooling Vision and Language Models Despite Localization and Attention Mechanism
 * Practical Black-Box Attacks against Machine Learning
 * **Hack ICLR 2018** : Obfuscated Gradients Give a False Sense of Security : Circumventing Defenses to Adversarial Examples
