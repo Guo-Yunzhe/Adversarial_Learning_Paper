@@ -2,7 +2,7 @@
 
 Papers about **[Adversarial Machine Learning](https://en.wikipedia.org/wiki/Adversarial_machine_learning)**.
 
-(**Not** to be confused with Generative adversarial network, GAN)
+( **Not** to be confused with Generative adversarial network, GAN )
 
 ## The FIRST Paper
 
@@ -14,6 +14,9 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 
 * Adversarial Machine Learning, 2011,  [ [Link](https://people.eecs.berkeley.edu/~tygar/papers/SML2/Adversarial_AISEC.pdf) ]
 * Adversarial examples in the physical world 
+* Exploring the space of adversarial images
+* Analysis of classifiers’ robustness to adversarial perturbations
+* Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods
 
 
 ## Attacks to Image Classification
@@ -27,20 +30,21 @@ In this category, the author usually luanch an attack to an image classifier mod
 * **Traffic Light** : Fooling Vision and Language Models Despite Localization and Attention Mechanism
 * Practical Black-Box Attacks against Machine Learning
 * **Hack ICLR 2018** : Obfuscated Gradients Give a False Sense of Security : Circumventing Defenses to Adversarial Examples
-* 
+* Deep neural networks are easily fooled: High confidence predictions for unrecognizable images
 
 
-
-## Attacks to Face Recognition
+###  Attacks to Face Recognition
 
 In this category ...
 
 * Accessorize to a Crime:Real and Stealthy Attacks on State-of-the-Art Face Recognition
 * Invisible Mask: Practical Attacks on Face Recognition with Infrared
 
+
 ## Attacks to Malware Detection
 
 * Evading Classifiers by Morphing in the Dark, **black-box attack**
+* Adversarial examples for malware detection
 
 
 ## Defenses
@@ -52,8 +56,14 @@ In this category, some defensive techniques are proposed, the way to defense adv
 - Add pre-processing process before feed samples into the classifier
 - etc.
 
+Papers:
 
 * Detecting Adversarial Examples in Deep Networks with Adaptive Noise Reduction, detecting, 2018
+* SafetyNet: Detecting and Rejecting Adversarial Examples Robustly
+* Improving the Robustness of Deep Neural Networks via Stability Training
+* Efficient Defenses Against Adversarial Attacks
+* Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks
+* MagNet: a Two-Pronged Defense against Adversarial Examples
 
 
 
@@ -67,6 +77,7 @@ In this category, some defensive techniques are proposed, the way to defense adv
 ## Stealing Machine Learning Models
 
 * Cracking Classifiers for Evasion: A Case Study on the Google’s Phishing Pages Filter
-* 
+* Stealing Machine Learning Models via Prediction APIs, **USENIX 2016**
+
 
 
