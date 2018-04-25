@@ -18,6 +18,8 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 * Analysis of classifiers’ robustness to adversarial perturbations
 * Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods, Nicholas Carlini & David Wagner, [ [code](https://github.com/abhibhav14/adversarial-attacks-papernotes/blob/master/notes/carlini-wagner-bypass.md) ], [[paper](https://arxiv.org/abs/1705.07263)]
 * Analysis of classifiers' robustness to adversarial perturbations, Machine Learning , [  [paper](https://link.springer.com/article/10.1007%2Fs10994-017-5663-3)]
+* Adversarial Machine Learning at Scale, **ICLR 2017**,[ [paper](https://openreview.net/forum?id=BJm4T4Kgx) ]
+
 
 
 ## Attacks
@@ -62,6 +64,7 @@ In this category, the attacker focus on a face recognition system (like Face++),
 * Adversarial examples for malware detection
 * Automated poisoning attacks and defenses in malware detection systems: An adversarial machine learning approach, 2018 , **Computers & Security**, [ [paper](https://www.sciencedirect.com/science/article/pii/S0167404817302444?via%3Dihub)]
 * Adversarially Robust Malware Detection Using Monotonic Classification,CODASPY 2018, [ [paper](https://dl.acm.org/citation.cfm?doid=3180445.3180449) ]
+* Adversarial Training Methods for Semi-Supervised Text Classification , **ICLR 2017**, [ [paper](https://openreview.net/forum?id=r1X3g2_xl) ]
 
 
 
@@ -84,6 +87,8 @@ Papers:
 * Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks
 * MagNet: a Two-Pronged Defense against Adversarial Examples
 * Hardening Deep Neural Networks via Adversarial Model Cascades, [ [paper](https://arxiv.org/abs/1802.01448) ] 
+* On Detecting Adversarial Perturbations, **ICLR 2017**, [[paper](https://openreview.net/pdf?id=SJzCSf9xg)]
+
 
 
 
