@@ -10,41 +10,60 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 
 * Intriguing properities of neural networkds,2013 , [ [paper](https://arxiv.org/abs/1312.6199) ] 
 
-## Introduction Papers
+## Introduction and Analysis
 
 * Adversarial Machine Learning, 2011,  [ [paper](https://people.eecs.berkeley.edu/~tygar/papers/SML2/Adversarial_AISEC.pdf) ]
 * Adversarial examples in the physical world 
 * Exploring the space of adversarial images
 * Analysis of classifiers’ robustness to adversarial perturbations
 * Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods, Nicholas Carlini & David Wagner, [ [code](https://github.com/abhibhav14/adversarial-attacks-papernotes/blob/master/notes/carlini-wagner-bypass.md) ], [[paper](https://arxiv.org/abs/1705.07263)]
+* Analysis of classifiers' robustness to adversarial perturbations, Machine Learning , [  [paper](https://link.springer.com/article/10.1007%2Fs10994-017-5663-3)]
 
 
-## Attacks to Image Classification
+## Attacks
 
-In this category, the author usually luanch an attack to an image classifier model, trained using CNN or other machine learning algorithms. A typical way to attack is to add some kind of small **noise** directly to the image (or matrix) and feed it into the target classifier, then get a different (false) classification result.
-
+In this category, the author usually luanch an attack to an classifier model, trained using CNN or other machine learning algorithms. A typical way to attack is to add some kind of small **noise** directly to the matrix (or image) and feed it into the target classifier, then get a different (false) classification result.
 
 * **FGSM** : Explaining and Harnessing Adversarial Examples
 * **RAND + FGSM** : Practical Black-Box Attacks against Machine Learning
 * **CW-Attack** : Towards Evaluating the Robustness of Neural Networks, Nicholas Carlini & David Wagner, [  [paper](https://arxiv.org/abs/1608.04644) ]
-* **Traffic Light** : Fooling Vision and Language Models Despite Localization and Attention Mechanism
+* **Traffic Light** : Fooling Vision and Language Models Despite Localization and Attention Mechanism , **CVPR 2018**
 * Practical Black-Box Attacks against Machine Learning
 * **Hack ICLR 2018** : Obfuscated Gradients Give a False Sense of Security : Circumventing Defenses to Adversarial Examples
 * Deep neural networks are easily fooled: High confidence predictions for unrecognizable images
+* Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning, Chang Liu, [  [paper](https://arxiv.org/abs/1712.05526) ]
+* Manipulating Machine Learning: Poisoning Attacks and Countermeasures for Regression Learning , **Oakland '18** ,Chang Liu, [  [paper](https://arxiv.org/pdf/1804.00308.pdf) ]
+* Robust Linear Regression Against Training Data Poisoning, **AISec 17** , [ [paper](https://people.eecs.berkeley.edu/~liuchang/paper/aisec17-poisoning.pdf) ]
+* Delving into Transferable Adversarial Examples and Black-box Attacks, **ICLR '17**,  [  [paper](https://arxiv.org/abs/1611.02770) ]
+* Shielding Google's language toxicity model against adversarial attacks  , [ [paper](https://arxiv.org/abs/1801.01828) ]
+* Generating Adversarial Examples with Adversarial Networks, **Dawn Song**, [ [paper](https://arxiv.org/abs/1801.02610) ]
+* Spatially Transformed Adversarial Examples, **Dawn Song**, [ [paper](https://arxiv.org/abs/1801.02612)]
+* Adversarial Deep Learning for Robust Detection of Binary Encoded Malware, [ [paper](https://arxiv.org/abs/1801.02950) ] 
+* **Black box Attack** : Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers, [ [paper](https://arxiv.org/abs/1801.04354)]
 
 
-###  Attacks to Face Recognition
+###  Attacks to Face or Speech Recognition
 
-In this category ...
+In this category, the attacker focus on a face recognition system (like Face++), to make the classifier misclassify the input face or cannot detect faces.
 
 * Accessorize to a Crime:Real and Stealthy Attacks on State-of-the-Art Face Recognition
 * Invisible Mask: Practical Attacks on Face Recognition with Infrared
+* Adversarial Generative Nets: Neural Network Attacks on State-of-the-Art Face Recognition ,   [ [paper](https://arxiv.org/abs/1801.00349) ]
+* **Speech** : Did you hear that? Adversarial Examples Against Automatic Speech Recognition,  [ [paper](https://arxiv.org/abs/1801.00554) ]
+* High Dimensional Spaces, Deep Learning and Adversarial Examples, [ [paper](https://arxiv.org/abs/1801.00634) ]
+* **Speech** : * Audio Adversarial Examples: Targeted Attacks on Speech-to-Text, [ [paper](https://arxiv.org/abs/1801.01953) ]
+* Adversarial Vulnerability of Neural Networks Increases With Input Dimension , [ [paper](https://arxiv.org/abs/1802.01421) ]
 
 
-## Attacks to Malware Detection
+
+### Attacks to Malware Detection
 
 * Evading Classifiers by Morphing in the Dark, **black-box attack**
 * Adversarial examples for malware detection
+* Automated poisoning attacks and defenses in malware detection systems: An adversarial machine learning approach, 2018 , **Computers & Security**, [ [paper](https://www.sciencedirect.com/science/article/pii/S0167404817302444?via%3Dihub)]
+* Adversarially Robust Malware Detection Using Monotonic Classification,CODASPY 2018, [ [paper](https://dl.acm.org/citation.cfm?doid=3180445.3180449) ]
+
+
 
 
 ## Defenses
@@ -64,13 +83,16 @@ Papers:
 * Efficient Defenses Against Adversarial Attacks
 * Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks
 * MagNet: a Two-Pronged Defense against Adversarial Examples
+* Hardening Deep Neural Networks via Adversarial Model Cascades, [ [paper](https://arxiv.org/abs/1802.01448) ] 
+
 
 
 
 ## Survey
 
 * Adversarial Examples: Attacks and Defenses for Deep Learning, 2018, [ [paper](https://arxiv.org/abs/1712.07107)  ]
-* Towards the Science of Security and Privacy in Machine Learning, by McDaniel, Patrick, 
+* Towards the Science of Security and Privacy in Machine Learning, Patrick McDaniel 
+* Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey ,  , 2018 ,CoRR, [ [paper](https://arxiv.org/abs/1801.00553) ]
 
 
 
@@ -78,6 +100,7 @@ Papers:
 
 * Cracking Classifiers for Evasion: A Case Study on the Google’s Phishing Pages Filter
 * Stealing Machine Learning Models via Prediction APIs, **USENIX 2016**
+* **Stealing Training Data ?** : Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures, [ [paper](https://dl.acm.org/citation.cfm?doid=2810103.2813677) ]
 
 
 
