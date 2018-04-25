@@ -16,7 +16,7 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 * Adversarial examples in the physical world 
 * Exploring the space of adversarial images
 * Analysis of classifiers’ robustness to adversarial perturbations
-* Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods
+* Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods, Nicholas Carlini & David Wagner, [ [code](https://github.com/abhibhav14/adversarial-attacks-papernotes/blob/master/notes/carlini-wagner-bypass.md) ], [[arXiv](https://arxiv.org/abs/1705.07263)]
 
 
 ## Attacks to Image Classification
@@ -26,7 +26,7 @@ In this category, the author usually luanch an attack to an image classifier mod
 
 * **FGSM** : Explaining and Harnessing Adversarial Examples
 * **RAND + FGSM** : Practical Black-Box Attacks against Machine Learning
-* **CW-Attack** : Towards Evaluating the Robustness of Neural Networks
+* **CW-Attack** : Towards Evaluating the Robustness of Neural Networks, Nicholas Carlini & David Wagner, [  [paper]()https://arxiv.org/abs/1608.04644 ]
 * **Traffic Light** : Fooling Vision and Language Models Despite Localization and Attention Mechanism
 * Practical Black-Box Attacks against Machine Learning
 * **Hack ICLR 2018** : Obfuscated Gradients Give a False Sense of Security : Circumventing Defenses to Adversarial Examples
