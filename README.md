@@ -23,6 +23,8 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 * Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples
 * The Space of Transferable Adversarial Examples
 * Adversarial Examples that Fool both Human and Computer Vision 
+* **taxonomy of adversaries against DNN classifers?** : The Limitations of Deep Learning in Adversarial Settings [ [paper](https://arxiv.org/abs/1511.07528) ]
+
 
 
 ## Survey
@@ -50,7 +52,15 @@ In this category, the author usually luanch an attack to an classifier model, tr
 * Spatially Transformed Adversarial Examples, **Dawn Song**, [ [paper](https://arxiv.org/abs/1801.02612)]
 * Adversarial Deep Learning for Robust Detection of Binary Encoded Malware, [ [paper](https://arxiv.org/abs/1801.02950) ] 
 * **Black box Attack** : Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers, [ [paper](https://arxiv.org/abs/1801.04354)]
-
+* **Black box Attack** : Delving into Transferable Adversarial Examples and Black-box Attacks
+* **traffic sign** : Robust Physical-World Attacks on Deep Learning Models
+* Adversarial Perturbations Against Deep Neural Networks for Malware Classific
+* Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers
+* Defensive distillation is not robust to adversarial examples
+* **R+FGSM** : Ensemble Adversarial Training: Attacks and Defenses [ [paper](https://arxiv.org/abs/1705.07204)] 
+* **PGD** Towards Deep Learning Models Resistant to Adversarial Attacks 
+* Adversarial Patch **NIPS 2017** : [ [paper](https://arxiv.org/abs/1712.09665) ]
+* **Deepfool** Deepfool: a simple and accurate method tofool deep neural networks
 
 
 ###  Attacks to Face or Speech Recognition
@@ -64,6 +74,7 @@ In this category, the attacker focus on a face recognition system (like Face++),
 * High Dimensional Spaces, Deep Learning and Adversarial Examples, [ [paper](https://arxiv.org/abs/1801.00634) ]
 * **Speech** : * Audio Adversarial Examples: Targeted Attacks on Speech-to-Text, [ [paper](https://arxiv.org/abs/1801.01953) ] **white box, targeted attack, directed input**
 * Adversarial Vulnerability of Neural Networks Increases With Input Dimension , [ [paper](https://arxiv.org/abs/1802.01421) ]
+* **Speech** : DolphinAttack: Inaudible Voice Commands
 
 
 ### Attacks to Malware Detection
@@ -95,6 +106,7 @@ Papers:
 * MagNet: a Two-Pronged Defense against Adversarial Examples
 * Hardening Deep Neural Networks via Adversarial Model Cascades, [ [paper](https://arxiv.org/abs/1802.01448) ] 
 * On Detecting Adversarial Perturbations, **ICLR 2017**, [[paper](https://openreview.net/pdf?id=SJzCSf9xg)]
+* **Defence** Mitigating adversarial effects through randomization **defend by randomly padding/resizing/perturbing (denoising)**
 
 
 
@@ -110,29 +122,11 @@ Papers:
 
 
 * **Stealing Training Data** : Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures, [ [paper](https://dl.acm.org/citation.cfm?doid=2810103.2813677) ]
-* **Model Inversion Attack** :
-* **Use GAN to steal data** : 
+* **Model Inversion Attack** : Membership Inference Attacks against Machine Learning Models [[paper](https://ieeexplore.ieee.org/document/7958568/)]
+* **Use GAN to steal data** : Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning， **published at CCS'17**
+* Machine Learning Models that Remember Too Much, **CCS'17**
 
 
 
-
-## To Added Papers
-
-
-
-* **Black box Attack** : Delving into Transferable Adversarial Examples and Black-box Attacks
-* **traffic sign** : Robust Physical-World Attacks on Deep Learning Models
-
-* **Speech** : DolphinAttack: Inaudible Voice Commands
-
-* Adversarial Perturbations Against Deep Neural Networks for Malware Classific
-* Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers
-
-* Defensive distillation is not robust to adversarial examples
-* **R+FGSM**Ensemble Adversarial Training: Attacks and Defenses [ [paper](https://arxiv.org/abs/1705.07204)] 
-* **PGD** Towards Deep Learning Models Resistant to Adversarial Attacks 
-* **taxonomy of adversaries against DNN classifers?** : The Limitations of Deep Learning in Adversarial Settings [ [paper](https://arxiv.org/abs/1511.07528) ]
-* Adversarial Patch **NIPS 2017** [ [paper](https://arxiv.org/abs/1712.09665) ]
-* **Deepfool** Deepfool: a simple and accurate method tofool deep neural networks
-* **Defence** Mitigating adversarial effects through randomization **defend by randomly padding/resizing/perturbing (denoising)**
+## Unclassified
 
