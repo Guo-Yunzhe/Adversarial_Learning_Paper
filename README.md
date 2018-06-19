@@ -46,7 +46,6 @@ In this category, the author usually luanch an attack to an classifier model, tr
 * Deep neural networks are easily fooled: High confidence predictions for unrecognizable images
 * Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning, Chang Liu, [  [paper](https://arxiv.org/abs/1712.05526) ]
 * Manipulating Machine Learning: Poisoning Attacks and Countermeasures for Regression Learning , **Oakland '18** ,Chang Liu, [  [paper](https://arxiv.org/pdf/1804.00308.pdf) ]
-* Robust Linear Regression Against Training Data Poisoning, **AISec@CCS 17** , [ [paper](https://people.eecs.berkeley.edu/~liuchang/paper/aisec17-poisoning.pdf) ]
 * Delving into Transferable Adversarial Examples and Black-box Attacks, **ICLR '17**,  [  [paper](https://arxiv.org/abs/1611.02770) ]
 * Shielding Google's language toxicity model against adversarial attacks  , [ [paper](https://arxiv.org/abs/1801.01828) ]
 * Generating Adversarial Examples with Adversarial Networks, **Dawn Song**, [ [paper](https://arxiv.org/abs/1801.02610) ]
@@ -68,7 +67,7 @@ In this category, the author usually luanch an attack to an classifier model, tr
 
 In this category, the attacker focus on a face recognition system (like Face++), to make the classifier misclassify the input face or cannot detect faces.
 
-* Accessorize to a Crime:Real and Stealthy Attacks on State-of-the-Art Face Recognition
+* Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition
 * Invisible Mask: Practical Attacks on Face Recognition with Infrared
 * Adversarial Generative Nets: Neural Network Attacks on State-of-the-Art Face Recognition ,   [ [paper](https://arxiv.org/abs/1801.00349) ]
 * **Speech** : Did you hear that? Adversarial Examples Against Automatic Speech Recognition,  [ [paper](https://arxiv.org/abs/1801.00554) ]
@@ -108,6 +107,7 @@ Papers:
 * Hardening Deep Neural Networks via Adversarial Model Cascades, [ [paper](https://arxiv.org/abs/1802.01448) ] 
 * On Detecting Adversarial Perturbations, **ICLR 2017**, [[paper](https://openreview.net/pdf?id=SJzCSf9xg)]
 * **Defence** Mitigating adversarial effects through randomization **defend by randomly padding/resizing/perturbing (denoising)**
+* Robust Linear Regression Against Training Data Poisoning, **AISec@CCS 17** , [ [paper](https://people.eecs.berkeley.edu/~liuchang/paper/aisec17-poisoning.pdf) ]
 
 
 
