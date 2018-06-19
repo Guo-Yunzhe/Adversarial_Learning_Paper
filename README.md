@@ -4,6 +4,8 @@ Papers about **[Adversarial Machine Learning](https://en.wikipedia.org/wiki/Adve
 
 ( **Not** to be confused with Generative adversarial network, GAN )
 
+For detailed information of each paper, check `adversarial_paper.csv`.
+
 ## The FIRST Paper
 
 In this paper, the author first noticed the existence of *adversarial examples* in image classification application.
@@ -24,7 +26,6 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 * The Space of Transferable Adversarial Examples
 * Adversarial Examples that Fool both Human and Computer Vision 
 * **taxonomy of adversaries against DNN classifers?** : The Limitations of Deep Learning in Adversarial Settings [ [paper](https://arxiv.org/abs/1511.07528) ]
-
 
 
 ## Survey
