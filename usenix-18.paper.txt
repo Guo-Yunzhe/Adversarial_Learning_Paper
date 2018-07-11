@@ -1,0 +1,27 @@
+URL: https://www.usenix.org/conference/usenixsecurity18/technical-sessions
+
+Machine Learning Security:
+
+With Great Training Comes Great Vulnerability: Practical Attacks against Transfer Learning
+
+When Does Machine Learning FAIL? Generalized Transferability for Evasion and Poisoning Attacks
+
+CommanderSong: A Systematic Approach for Practical Adversarial Voice Recognition
+
+AttriGuard: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning
+
+Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning
+
+
+Malware:
+
+FANCI : Feature-based Automated NXDomain Classification and Intelligence
+
+Fast and Service-preserving Recovery from Malware Infections Using CRIU
+
+Discovering Vulnerabilities in Security-Focused Static Analysis Tools for Android using Systematic Mutation
+
+
+Web Security:
+
+An Empirical Study of Web Resource Manipulation in Real-world Mobile Applications
