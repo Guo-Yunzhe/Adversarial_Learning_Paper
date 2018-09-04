@@ -10,7 +10,7 @@ For detailed information of each paper, check `adversarial_paper.csv`.
 
 In this paper, the author first noticed the existence of *adversarial examples* in image classification application.
 
-* **L-BFGS**Intriguing properities of neural networkds,2013 , [ [paper](https://arxiv.org/abs/1312.6199) ] 
+* **L-BFGS**  Intriguing properities of neural networkds,2013 , [ [paper](https://arxiv.org/abs/1312.6199) ] 
 
 ## Introduction and Analysis
 
