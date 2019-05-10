@@ -31,8 +31,9 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 ## Survey
 
 * Adversarial Examples: Attacks and Defenses for Deep Learning, 2018, [ [paper](https://arxiv.org/abs/1712.07107)  ], 
-* Towards the Science of Security and Privacy in Machine Learning, Patrick McDaniel [cyw to read]
+* Towards the Science of Security and Privacy in Machine Learning, Patrick McDaniel
 * Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey ,  , 2018 ,CoRR, [ [paper](https://arxiv.org/abs/1801.00553) ]
+* **Speech Recognition System:**     Adversarial Examples for Automatic Speech Recognition : Attacks and Countermeasures
 
 ## Attacks
 
@@ -62,22 +63,30 @@ In this category, the author usually luanch an attack to an classifier model, tr
 * Adversarial Patch **NIPS 2017** : [ [paper](https://arxiv.org/abs/1712.09665) ]
 * **Deepfool** Deepfool: a simple and accurate method tofool deep neural networks
 
+### Attacks using Visible Pattern 
 
-###  Attacks to Face or Speech Recognition
+* Adversarial Patch
+
+###  Attacks against Face Recognition System
 
 In this category, the attacker focus on a face recognition system (like Face++), to make the classifier misclassify the input face or cannot detect faces.
 
 * Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition
 * Invisible Mask: Practical Attacks on Face Recognition with Infrared
+* High Dimensional Spaces, Deep Learning and Adversarial Examples, [ [paper](https://arxiv.org/abs/1801.00634) ]
+
+
+### Attack against  Speech Recognition System
+
+* Adversarial Attacks Against Automatic Speech Recognition Systems via Psychoacoustic Hiding 【NDSS 2019】
 * Adversarial Generative Nets: Neural Network Attacks on State-of-the-Art Face Recognition ,   [ [paper](https://arxiv.org/abs/1801.00349) ]
 * **Speech** : Did you hear that? Adversarial Examples Against Automatic Speech Recognition,  [ [paper](https://arxiv.org/abs/1801.00554) ]
-* High Dimensional Spaces, Deep Learning and Adversarial Examples, [ [paper](https://arxiv.org/abs/1801.00634) ]
 * **Speech** : * Audio Adversarial Examples: Targeted Attacks on Speech-to-Text, [ [paper](https://arxiv.org/abs/1801.01953) ] **white box, targeted attack, directed input**
 * Adversarial Vulnerability of Neural Networks Increases With Input Dimension , [ [paper](https://arxiv.org/abs/1802.01421) ]
 * **Speech** : DolphinAttack: Inaudible Voice Commands
 
 
-### Attacks to Malware Detection
+### Attacks against Malware Detection
 
 * Evading Classifiers by Morphing in the Dark, **black-box attack**
 * Adversarial examples for malware detection
@@ -85,6 +94,9 @@ In this category, the attacker focus on a face recognition system (like Face++),
 * Adversarially Robust Malware Detection Using Monotonic Classification,CODASPY 2018, [ [paper](https://dl.acm.org/citation.cfm?doid=3180445.3180449) ]
 * Adversarial Training Methods for Semi-Supervised Text Classification , **ICLR 2017**, [ [paper](https://openreview.net/forum?id=r1X3g2_xl) ]
 
+### Attacks against NLP System
+
+* TextBugger: Generating Adversarial Text Against Real-world Applications, NDSS'19 paper
 
 
 ## Defenses
@@ -111,23 +123,4 @@ Papers:
 
 
 
-
-
-## Stealing Machine Learning Models
-
-* Cracking Classifiers for Evasion: A Case Study on the Google’s Phishing Pages Filter
-* Stealing Machine Learning Models via Prediction APIs, **USENIX 2016**
-
-
-## Stealing Data
-
-
-* **Stealing Training Data** : Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures, [ [paper](https://dl.acm.org/citation.cfm?doid=2810103.2813677) ]
-* **Model Inversion Attack** : Membership Inference Attacks against Machine Learning Models [[paper](https://ieeexplore.ieee.org/document/7958568/)]
-* **Use GAN to steal data** : Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning， **published at CCS'17**
-* Machine Learning Models that Remember Too Much, **CCS'17**
-
-
-
-## Unclassified
 
