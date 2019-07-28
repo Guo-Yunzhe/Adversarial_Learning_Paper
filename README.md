@@ -4,7 +4,6 @@ Papers about **[Adversarial Machine Learning](https://en.wikipedia.org/wiki/Adve
 
 ( **Not** to be confused with Generative adversarial network, GAN )
 
-For detailed information of each paper, check `adversarial_paper.csv`.
 
 ## The FIRST Paper
 
@@ -32,7 +31,7 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 
 * Adversarial Examples: Attacks and Defenses for Deep Learning, 2018, [ [paper](https://arxiv.org/abs/1712.07107)  ], 
 * Towards the Science of Security and Privacy in Machine Learning, Patrick McDaniel
-* Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey ,  , 2018 ,CoRR, [ [paper](https://arxiv.org/abs/1801.00553) ]
+* Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey ,  2018 ,CoRR, [ [paper](https://arxiv.org/abs/1801.00553) ]
 * **Speech Recognition System:**     Adversarial Examples for Automatic Speech Recognition : Attacks and Countermeasures
 
 ## Attacks
